@@ -40,7 +40,8 @@ count=0
 def getLinks(pageUrl):
     global pages
     global count
-    html = urlopen('https://en.wikipedia.org{}'.format(pageUrl)) #('https://en.wikipedia.org{0}.format(pageUrl))
+    html = urlopen('https://en.wikipedia.org{}'.format(pageUrl))
+    #html = urlopen('https://en.wikipedia.org{0}.format(pageUrl))
     bs = BeautifulSoup(html, 'html.parser')
     try :
         print(bs.h1.get_text())
