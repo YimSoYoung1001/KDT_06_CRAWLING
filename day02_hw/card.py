@@ -1,14 +1,6 @@
-'''
-class Card:
-    def __init__(self, card_suit, card_number):
-        self.suit = card_suit
-        self.number = card_number
-
-if __name__ == '__main__':
-    card = Card('♠', 10)
-    print(card)  #card 객체 출력 (객체의 주소가 출력됨)
-'''
-
+# [ card 클래스 ]
+# 한장의 카드를 나타내기 위한 클래스
+# suit와 number의 값을 가짐
 
 
 class Card:
