@@ -48,7 +48,7 @@ def play_game():
 
 def play_game_test():
     '''
-        One pair 카드 검사 기능 테스트 함수
+        One pair 카드 검사 기능 테스트 함수              ===> 단위테스트
     :return:
     '''
     player1 = Player("흥부")
