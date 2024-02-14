@@ -49,8 +49,6 @@ for i in range(len(data_list)):
 exam_df = pd.DataFrame(DF_list)
 exam_df.columns = ['순위', '제목']
 print(exam_df)
-print('데이터프레임 출력 완료')
 
 exam_df.to_csv('e_02')
-print('csv 파일 저장 완료')
 
